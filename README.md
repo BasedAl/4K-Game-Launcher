@@ -9,4 +9,6 @@ This game launcher is rather meant for Younger developers that don't have 100$ t
 
 .Net Framework 4.8 required
 
-also i'm not a good C# developer either, i actually added the strings so you don't search for everything in the code
+also i'm not a good C# developer either, i actually added the strings so you don't search for anything in the code
+
+also i use .NET Because C++'s WinAPI is too diffculty
