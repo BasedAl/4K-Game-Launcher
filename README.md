@@ -13,4 +13,7 @@ also i'm not a good C# developer either, i actually added the strings so you don
 
 also i use .NET Because C++ (WinAPI) is too diffculty
 
-also thanks to anyone that helped me even if i didn't ask for your code that is literally open source (especially the stackoverflow community)
+also thanks to anyone that helped me even if i didn't ask for your code that is literally open source (especially the stackoverflow community
+before you think "dude you stole 100% of the code"
+wrong i forked it around or smth, i'm not sure.
+it's just a basic C# game launcher with a updater
