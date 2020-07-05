@@ -13,4 +13,4 @@ also i'm not a good C# developer either, i actually added the strings so you don
 
 also i use .NET Because C++ (WinAPI) is too diffculty
 
-also thanks to anyone that helped me even if i didn't ask for your code that is literally open source
+also thanks to anyone that helped me even if i didn't ask for your code that is literally open source (especially the stackoverflow community)
