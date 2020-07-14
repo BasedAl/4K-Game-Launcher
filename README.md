@@ -1,4 +1,5 @@
 # 4K-Game-Launcher
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/ce19ebaa334d41cebaf002ad79e4d4de)](https://www.codacy.com/gh/Alvin4KHD-Studios/4K-Game-Launcher?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=Alvin4KHD-Studios/4K-Game-Launcher&amp;utm_campaign=Badge_Grade)
 
 a Game Launcher used for Beans: Source
 
