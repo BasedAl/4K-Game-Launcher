@@ -55,7 +55,7 @@ namespace _4K_Launcher
              int ClientVersion = int.Parse(File.ReadAllText(ClientVersionPath));
              if (Server > ClientVersion)
              {
-                 client.DownloadFile(downloadurl, zipfile);
+                 client.DownloadFile(DownloadURL, ZipFile);
                  try
                  {
 
