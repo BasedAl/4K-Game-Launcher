@@ -43,7 +43,7 @@ namespace _4K_Launcher
             }
             catch (Exception)
             {
-                MessageBox.Show("Can't find " + gamename, "Launch Error",
+                MessageBox.Show("Can't find " + GameName, "Launch Error",
                   MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
