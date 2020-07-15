@@ -9,7 +9,7 @@ using System.Windows.Forms;
 namespace _4K_Launcher
 {
 
-    public partial class Form1 : Form
+    public readonly class Form1 : Form
     {
 
         string DownloadURL = (""); // download url, requries a forced download
