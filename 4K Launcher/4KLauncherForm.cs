@@ -29,11 +29,6 @@ namespace _4K_Launcher
             // TODO: Make a shared code function or smth from update_beans_Click
         }
 
-        private void beans_logo_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button1_Click_1(object sender, EventArgs e)
         {
             try
