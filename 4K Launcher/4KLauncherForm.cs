@@ -80,7 +80,7 @@ namespace _4K_Launcher
              }
              else
              {
-                 MessageBox.Show(gamename + "is already up-to-date", "4K Game Launcher",
+                 MessageBox.Show(GameName + "is already up-to-date", "4K Game Launcher",
                       MessageBoxButtons.OK, MessageBoxIcon.Information);
              } 
     }
