@@ -11,13 +11,13 @@ namespace _4K_Launcher
     public partial class Form1 : Form
     {
 
-        string downloadurl = ("https://www.dropbox.com/sh/klyttakbdpn1pac/AAD1yJtHkEkegmA0jNFcx9JZa?dl=1"); // download url, requries a forced download
-        string zipfile = @".\downloading\update.zip"; // this is also a Path where the file saves but it only saves at the 4K Launcher rn 
-        string serverversionurl = ""; // use pastebin, type the current number as "001" not "0.0.1"
-        string clientversionpath = @"..\game\version.txt"; // same with the serverversionurl string but use a txt file instead
-        string gamepath = @"..\game";
-        string gameexecutable = @"..\game\game.exe"; // it can be also a steamid launch, a lnk file or whatever.
-        string gamename = "game";
+        string DownloadURL = (""); // download url, requries a forced download
+        string ZipFile = @".\downloading\update.zip"; // this is also a Path where the file saves but it only saves at the 4K Launcher rn 
+        string ServerVersionURL = ""; // use pastebin, type the current number as "001" not "0.0.1"
+        string ClientVersionPath = @"..\game\version.txt"; // same with the serverversionurl string but use a txt file instead
+        string GamePath = @"..\game";
+        string GameExecutable = @"..\game\game.exe"; // it can be also a steamid launch, a lnk file or whatever.
+        string GameName = "Game";
 
         public Form1()
         {
@@ -38,7 +38,7 @@ namespace _4K_Launcher
         {
             try
             {
-                Process.Start(gameexecutable);
+                Process.Start(GameExecutable);
                 Application.Exit();
             }
             catch (Exception)
@@ -51,9 +51,9 @@ namespace _4K_Launcher
          private void update_beans_Click(object sender, EventArgs e)
          {
              WebClient client = new WebClient();
-             int server = int.Parse(client.DownloadString(serverversionurl));
-             int clientversion = int.Parse(File.ReadAllText(clientversionpath));
-             if (server > clientversion)
+             int Server = int.Parse(client.DownloadString(ServerVersionURL));
+             int ClientVersion = int.Parse(File.ReadAllText(ClientVersionPath));
+             if (Server > ClientVersion)
              {
                  client.DownloadFile(downloadurl, zipfile);
                  try
@@ -61,10 +61,10 @@ namespace _4K_Launcher
 
                      {
                          if (File.Exists(@".downloading\update.zip")) ;
-                            String ZipPath = zipfile;
-                            String extractPath = gamepath;
-                            ZipFile.ExtractToDirectory(ZipPath, extractPath);
-                        if (MessageBox.Show(gamename + " has been successfully updated", "4K Game Launcher", MessageBoxButtons.OK, MessageBoxIcon.Information) == DialogResult.OK)
+                            String ZipPath = ZipFile;
+                            String ExtractPath = GamePath;
+                            ZipFile.ExtractToDirectory(ZipPath, ExtractPath);
+                        if (MessageBox.Show(GameName + " has been successfully updated", "4K Game Launcher", MessageBoxButtons.OK, MessageBoxIcon.Information) == DialogResult.OK)
                         {
                             File.Delete(@".downloading\update.zip");
                         }
