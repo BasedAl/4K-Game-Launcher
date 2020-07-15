@@ -60,7 +60,6 @@ namespace _4K_Launcher
                  {
 
                      {
-                         if (File.Exists(@".downloading\update.zip")) ;
                             String ZipPath = ZipFile;
                             String ExtractPath = GamePath;
                             ZipFile.ExtractToDirectory(ZipPath, ExtractPath);
