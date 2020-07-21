@@ -7,7 +7,7 @@
 
 a Game Launcher used for Beans: Source
 
-can be also commerically reused.
+can be also commerically reused (you're better off with steam)
 
 it's recommanded to use this launcher if your game is massive and you're doing only little changes to it
 the game launcher doesn't include a updater for the game launcher currently.
