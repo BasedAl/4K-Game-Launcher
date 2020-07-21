@@ -11,7 +11,7 @@ namespace _4K_Launcher
     public partial class Form1 : Form
     {
 
-        private readonly string DownloadURL = (""); // download url, requries a forced download
+        private readonly string DownloadURL = ""; // download url, requries a forced download
         private readonly string UpdateZipFile = @".\downloading\update.zip"; // this is also a Path where the file saves but it only saves at the 4K Launcher rn 
         private readonly string ServerVersionURL = ""; // use pastebin, type the current number as "001" not "0.0.1"
         private readonly string ClientVersionPath = @"..\game\version.txt"; // same with the serverversionurl string but use a txt file instead
