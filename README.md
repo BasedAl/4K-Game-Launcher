@@ -23,3 +23,5 @@ before you think "dude you stole 100% of the code"
 wrong i combined it or smth, i'm not sure.
 it's just a basic C# game launcher with a updater.
 i don't even earn money with this.
+
+Reuse: you can use this for free even for commerical use (when you could use steam instead)
