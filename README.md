@@ -7,6 +7,8 @@
 
 a Game Launcher used for Beans: Source
 
+can be also commerically reused.
+
 it's recommanded to use this launcher if your game is massive and you're doing only little changes to it
 the game launcher doesn't include a updater for the game launcher currently.
 
@@ -23,5 +25,3 @@ before you think "dude you stole 100% of the code"
 wrong i combined it or smth, i'm not sure.
 it's just a basic C# game launcher with a updater.
 i don't even earn money with this.
-
-Reuse: you can use this for free even for commerical use (when you could use steam instead)
