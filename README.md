@@ -7,6 +7,8 @@
 
 a Game Launcher used for Beans: Source
 
+Warning: i'm not 100% sure if the solution file would still work
+
 can be also commerically reused (you're better off with steam)
 
 it's recommanded to use this launcher if your game is massive and you're doing only little changes to it
